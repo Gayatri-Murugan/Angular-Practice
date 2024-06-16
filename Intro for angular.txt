@@ -1,0 +1,21 @@
+Angular version 13
+
+#Single page appliction eg: netflix and gmail
+1 -> Angular is a javascript framework. A framework platform for developing software application
+2 -> SPA ia an applicationit have only 1 html, the page never changes only the content will,
+ since the content changing the refresh icon in the browser will never changes
+
+
+ @Angugar JS,Angular 2,4,5,6,7,8,9........12,13,14,15,16
+
+
+ Setup environment for angular Projects
+ 1. need to instal node Js ---> It provides tools that we need to build some angular Projects
+ 2. To check node version ---> node --v or nede --version
+ 3. To check npm version --> npm -version
+ 4. need to install angular cli in ur system globaly ---> npm install -g @angular/cli or npm install -g @angular/cli@latest (used to install latest version)
+ 5. To check angular installed or not ---> ng --version
+ 6. To create new angular project / create a folder on in terminal ---> ng new <--newprojectName-->
+ 7.To compile and run this angular project --> ng serve
+ 
+
