@@ -17,5 +17,62 @@ Angular version 13
  5. To check angular installed or not ---> ng --version
  6. To create new angular project / create a folder on in terminal ---> ng new <--newprojectName-->
  7.To compile and run this angular project --> ng serve
+
+
+ Angular files and folder structure
+ Nodemodules:
+    1) All the 3rd party libraies where stored in this folder 
+    2) This folder purily depends for developer purpose, We don't deploy this folder in production environment.
+    3)When we install the other third party libraies that also stored in this nodeModules
+
+ Src Folder:
+    1) We need to put all our source code in this folder, we will work most
+    2) Inside the source folder we have 
+     **app folder
+        1. It as ! component and 1 app nodeModules(must have atleast)
+        2. whenever we want to create servise, module should be created inside the app folder
+     **assets
+        1. which have static assets of our application(images,icons,fonts....)
+     **environment
+        1.Basically used to set up front environment which as 2 files
+          $$ environment.ts(development emvir)
+          $$ environment.prod.ts
+        2. purpose to setup database credential and server ip add
+     **Favicon.icon
+        1.it is a icon file which as displays on the browser(refer index.html file)
+     **index.html
+        1.Main html file which gets render when angular application runs
+        2. Here we don't have have any style sheets and js files because all this dependencies injected to this file 
+           during the build process
+     **main.ts
+        1. it is a Typescript file
+        2. starting point angular app , Whenever we run the angulur apllication this file gets started (entry point)
+        3. In this file what we are doing is we are bootstraping the main module(appmodule) to this project
+     **polyfills.ts
+        1. imports some script which are requird to run angular application 
+        2. it helps to browser to support any feature upgrade of angulur
+     **style.css
+        1. global  css file
+     ** test.ts --> used to setting testing environment
+     **editerconfig
+        1. which is used to setup some default set of rule which each developer should follow
+     *gitignore
+        1. Inthis file we need to specify the files and folder which we have to exclude from the git repository
+     **angular.json
+       1.Contains all the configuration of our ng project(project name, root folder name, source folder name)
+       2.before angular 6 this file as angular.cli.json
+     **karma.conf.js --> testing purpose
+     **package.json 
+       1. standard conf file which every node project has(project name, version)
+       2.dependencies:
+            $$ List of dependencies which our project dependdent on(ex: angular/core)
+            $$ dependencies listed  which is  needed it in production      
+
+       3.devdepencies:
+            $$ list of dependencies which is need for development purpose(ex: typescript,angularcli, node....)
+            $$ dependencies listed in devdepencies which is not need it in production  
+     **tsconfig.json
+        1.bunch of setting for typescript complier. Based on this setting it is going to compline typescript code to js code    
+
  
 
