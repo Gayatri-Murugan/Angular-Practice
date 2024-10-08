@@ -82,6 +82,7 @@ Angular version 13
         MongoDB -- 30 viedos ------1v/day ------estimation(30days)
         JS -------- 68 viedos ----- 2v/day -----estimation(40days)
         daily 1 program interview based
+        basic interview questions / self intro 
 
  
 
