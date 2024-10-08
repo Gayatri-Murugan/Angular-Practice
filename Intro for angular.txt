@@ -72,7 +72,16 @@ Angular version 13
             $$ list of dependencies which is need for development purpose(ex: typescript,angularcli, node....)
             $$ dependencies listed in devdepencies which is not need it in production  
      **tsconfig.json
-        1.bunch of setting for typescript complier. Based on this setting it is going to compline typescript code to js code    
+        1.bunch of setting for typescript complier. Based on this setting it is going to compline typescript code to js code  
+
+
+
+        react -- 86 viedos ---- 2v/day ---------estimation(50days)
+        Angular -- 105 viedos -----5v/day ------estimation(25days)  
+        NodeJS -- 122 viedos ----- 2v/day ------estimation(70days)
+        MongoDB -- 30 viedos ------1v/day ------estimation(30days)
+        JS -------- 68 viedos ----- 2v/day -----estimation(40days)
+        daily 1 program interview based
 
  
 
